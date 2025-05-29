@@ -2,37 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiladiCode</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Cyfonii - NFT Portfolio and Landing Page HTML Template</title>
+
+    <!-- Styles -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="app/dist/aos.css">
+    <link rel="stylesheet" href="app/dist/animate.css">
+    <link rel="stylesheet" href="app/dist/app.css">
+    <!-- end Styles -->
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/favicon.png">
+
 </head>
-<body>
-    <div class="container">
-        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
-        <section class="hero" style="width: 100%; height: 100vh; display: flex; justify-content: space-between; align-items: center; position: absolute; top: 0; left: 0;">
-            <div class="hero-info" data-aos="fade-left" data-aos-duration="1000" style="text-align: left; width: 50%; color: #fff;">
-                <div class="hero-info-title" style="margin-bottom: 20px;">
-                    <i class='bx bxl-sketch'></i>
-                    Front-end Developer Portfolio
+
+<body class="home-main header-fixed" style="background-color: black;">
+
+    <div class="wrapper">
+
+        <div class="preloader">
+            <div class="clear-loading loading-effect-2">
+            <span></span>
+            </div>
+        </div>
+
+    <!-- Header -->
+   
+    <!-- end Header -->
+
+    <!-- Banner -->
+    <section class="banner" style="background-color: black;">
+
+        <div class="shape right"></div>
+        <div class="container big">
+            
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <video src="./herovideo.mp4" autoplay="autoplay" loop="loop" muted></video>
                 </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner__left">
+                        <div class="block-text">
+                            <h2 class="heading">Shop <br> Your  <span class="s1 arlo_tm_animation_text_word"></span> <br>
+                          
+                                </h2>
+                                <br>
+                                
+                            <p class="desc">Experience the ultimate shopping destination for unique digital collectibles, where ownership is truly yours.</p>
 
-                <h1 data-aos="fade-left" data-aos-duration="3000" style="font-size: 2rem;">Providing <span class="gradient">the best</span> <span class="gradient">Experience</span></h1>
+                            <a href="collection.html" class="action-btn"><span>Start Shopping</span></a>
+                        </div>
 
-                <p style="margin-top: 20px;">I'm a front-end developer with experience in Website, Mobile and Software development. Check out my projects and skills.</p>
-
-                <button style="margin-top: 20px;"><i class='bx bx-send' ></i> Contact Me</button>
+                 
+                    </div>
+                </div>
             </div>
-            <div class="skills-video-box" style="width: 50%; height: 100vh;">
-                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4" style="width: 100%; height: 100%;"></video>
+
             </div>
-        </section>
-    </div>
-    <script src="app.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script >
-      AOS.init();
-    </script>
+        </div>
+        
+    </section>
+    <!-- End Banner -->
+
+
+
+
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/jquery-migrate.min.js"></script>
+    <script src="app/js/plugins.js"></script>
+    <script src="app/js/countto.js"></script>
+    <script src="app/js/wow.min.js"></script>
+
+    <script src="app/js/app.js"></script>
+    <script src="app/js/count-down.js"></script>
+
+    <script src="app/js/aos.js"></script>
+
+
+      <script src="app/js/swiper-bundle.min.js"></script>
+      <script src="app/js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+
+
 </body>
 </html>
