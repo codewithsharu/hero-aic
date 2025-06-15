@@ -22,6 +22,9 @@
     <link rel="shortcut icon" href="assets/images/logo/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/logo/favicon.png">
 
+    <!-- Config -->
+    <script src="app/js/config.js"></script>
+
 </head>
 
 <body class="home-main header-fixed" style="background-color: black;">
@@ -58,7 +61,7 @@
                                 
                             <p class="desc">Experience the ultimate shopping destination for unique digital collectibles, where ownership is truly yours.</p>
 
-                            <a href="collection.html" class="action-btn"><span>Start Shopping</span></a>
+                            <a href="#" class="action-btn" id="shopLink"><span>Start Shopping</span></a>
                         </div>
 
                  
@@ -92,7 +95,9 @@
       <script src="app/js/swiper.js"></script>
 
     <!-- Initialize Swiper -->
-
+    <script>
+        document.getElementById('shopLink').href = window.appConfig.baseUrl + '/collections/all';
+    </script>
 
 </body>
 </html>
