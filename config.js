@@ -1,5 +1,5 @@
 const config = {
-    baseUrl: 'http://localhost:5173'
+    baseUrl: 'https://orial-front.vercel.app/'
 };
 
 // Export the config object
